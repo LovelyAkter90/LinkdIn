@@ -1,0 +1,111 @@
+.regestration-part {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.regestration {
+  width: 570px;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 2px 12px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 0 auto !important;
+}
+.regester-icon {
+  padding-top: 45px;
+}
+.regester-icon svg {
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: rgba(0, 119, 181, 1);
+}
+.regester-header h2 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 34px;
+  color: var(--titel-color);
+  padding-top: 13px;
+}
+.regester-header p {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--titel-color);
+  padding-bottom: 45px;
+}
+.regester-form input {
+  width: 80%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 10px 15px;
+  outline: black;
+}
+.regester-form {
+  position: relative;
+}
+.label {
+  position: absolute;
+  top: -22px;
+  left: 94px;
+  background-color: rgb(255, 255, 255);
+  padding: 4px 15px;
+  color: var(--titel-color);
+}
+.regester-form Input {
+  border: 1px solid var(--titel-color);
+}
+.regester-form Input {
+  margin-bottom: 25px;
+}
+.label2 {
+  position: absolute;
+  top: 47px;
+  left: 94px;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 15px;
+  color: var(--titel-color);
+}
+.label3 {
+  position: absolute;
+  top: 119px;
+  left: 94px;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 15px;
+  color: var(--titel-color);
+}
+.label4 {
+  position: absolute;
+  top: 190px;
+  left: 88px;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 15px;
+  color: var(--titel-color);
+}
+.regeter-btn button {
+  padding: 15px 200px;
+  background-color: var(--button-color);
+  color: #fff;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+}
+.regester-lottie {
+  margin-top: 50px;
+  width: 500px;
+  height: 70vh;
+}
